@@ -1,0 +1,19 @@
+routers:
+- hostname: Router1
+  id: R1
+  interfaces:
+  - ip_address: 192.168.1.1
+    name: eth0
+    subnet_mask: 255.255.255.0
+  - ip_address: 192.168.2.1
+    name: eth1
+    subnet_mask: 255.255.255.0
+- hostname: Router2
+  id: R2
+  interfaces:
+  - ip_address: 192.168.3.1
+    name: eth0
+    subnet_mask: 255.255.255.0
+  - ip_address: 192.168.4.1
+    name: eth1
+    subnet_mask: 255.255.255.0
